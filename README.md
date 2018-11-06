@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **12** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -29,7 +29,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types:
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: ![](https://imgur.com/dwgnDan)
+  - [ ] GIF Walkthrough: <img src="https://i.imgur.com/dwgnDan.gif" width="800">
   - [ ] Steps to recreate: 
   
     1.Comment on a post with this comment <a href='/wp-admin/' title=""             style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(23)//'>Test</a>
@@ -75,7 +75,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Mark Carino]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
