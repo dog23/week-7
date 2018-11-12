@@ -8,12 +8,13 @@ Time spent: **12** hours spent in total
 
 (Required) Vulnerability Name or ID
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
+    - Vulnerability types: User Enumeration
+    - Tested in version: 4.2.2
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [ ] GIF Walkthrough: <img src="https://i.imgur.com/ffo9OYX.gifv" width="800">
+  - [ ] Steps to recreate: run wpscan --url http://wpdistillery.vm/ --enumerate u on WPscan
+
+  - [ ] Affected source code: https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 (Required) Vulnerability Name or ID
   - [ ] Summary: 
