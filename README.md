@@ -11,7 +11,7 @@ User Enumeration
     - Tested in version: 4.2.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: ![](https://i.imgur.com/ffo9OYX.gif)
-  - [ ] Steps to recreate: run wpscan --url http://wpdistillery.vm/ --enumerate u on WPscan
+  - [ ] Steps to recreate: run "wpscan --url http://wpdistillery.vm/ --enumerate u" on WPscan
 
   - [ ] Affected source code: https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php
   
@@ -26,7 +26,7 @@ Same-Origin Method Execution (SOME)
   
   Alert 23 will pop up
   - [ ] Affected source code: 
-    - [Link 1] https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e
+   https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e
     
 Legacy Theme Preview XSS
   - [ ] Summary: Cross-site scripting (XSS) vulnerability in the legacy theme preview implementation in wp-includes/theme.php in WordPress before 4.2.4 allows remote attackers to inject arbitrary web script or HTML via a crafted string.
