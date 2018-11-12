@@ -14,6 +14,7 @@ User Enumeration
   - [ ] Steps to recreate: run wpscan --url http://wpdistillery.vm/ --enumerate u on WPscan
 
   - [ ] Affected source code: https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php
+  
 Same-Origin Method Execution (SOME)
   - [ ] Summary: WordPress 4.5.1 is vulnerable against a Same-Origin Method Execution (SOME) vulnerability that stems from an insecure URL sanitization process performed in the file plupload.flash.swf. The code in the file attempts to remove flashVars ¹ in case they have been set GET parameters but fails to do so, enabling XSS via ExternalInterface ².
     - Vulnerability types: XSS
