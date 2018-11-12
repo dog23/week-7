@@ -21,12 +21,7 @@ Same-Origin Method Execution (SOME)
     - Tested in version: 4.2.2
     - Fixed in version:  4.2.8
   - [ ] GIF Walkthrough: <img src="https://i.imgur.com/ID8jnAo.gif" width="800">
-  - [ ] Steps to recreate: Go to any post and paste "<button onclick="fire()">Click</button>
-<script>
-function fire() {
- open('javascript:alert(1)');
-}
-</script>"
+  - [ ] Steps to recreate: Go to any post and paste <button onclick="fire()">Click</button> <script> function fire() { open('javascript:alert(23)');}</script>
   Alert 23 will pop up
   - [ ] Affected source code: 
     - [Link 1] https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e
