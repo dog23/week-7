@@ -40,7 +40,7 @@ Legacy Theme Preview XSS
   
   3. alert 23 will show
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5734
 
 ## Assets
 
