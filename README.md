@@ -2,11 +2,10 @@
 
 Time spent: **12** hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-(Required) User Enumeration
+User Enumeration
   - [ ] Summary: WPscan enumerates users
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2.2
@@ -15,9 +14,8 @@ Time spent: **12** hours spent in total
   - [ ] Steps to recreate: run wpscan --url http://wpdistillery.vm/ --enumerate u on WPscan
 
   - [ ] Affected source code: https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-(Required) Vulnerability Name or ID XSS
-  - [ ] Summary: 
+Same-Origin Method Execution (SOME)
+  - [ ] Summary: WordPress 4.5.1 is vulnerable against a Same-Origin Method Execution (SOME) vulnerability that stems from an insecure URL sanitization process performed in the file plupload.flash.swf. The code in the file attempts to remove flashVars ¹ in case they have been set GET parameters but fails to do so, enabling XSS via ExternalInterface ².
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version:  4.2.8
@@ -26,9 +24,10 @@ Time spent: **12** hours spent in total
   Alert 23 will pop up
   - [ ] Affected source code: 
     - [Link 1] https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e
-(Required) Vulnerability Cross-Site Scripting (XSS)
+    
+Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: <img src="https://i.imgur.com/dwgnDan.gif" width="800">
