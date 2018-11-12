@@ -11,7 +11,7 @@ Time spent: **12** hours spent in total
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2.2
     - Fixed in version: 
-  - [ ] GIF Walkthrough: <img src="https://i.imgur.com/ffo9OYX.gif" width="800">
+  - [ ] GIF Walkthrough: ![](https://i.imgur.com/ffo9OYX.gif)
   - [ ] Steps to recreate: run wpscan --url http://wpdistillery.vm/ --enumerate u on WPscan
 
   - [ ] Affected source code: https://github.com/WordPress/WordPress/blob/4.2-branch/wp-login.php
