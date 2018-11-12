@@ -25,8 +25,8 @@ Same-Origin Method Execution (SOME)
   - [ ] Affected source code: 
     - [Link 1] https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e
     
-Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+Legacy Theme Preview XSS
+  - [ ] Summary: Cross-site scripting (XSS) vulnerability in the legacy theme preview implementation in wp-includes/theme.php in WordPress before 4.2.4 allows remote attackers to inject arbitrary web script or HTML via a crafted string.
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
